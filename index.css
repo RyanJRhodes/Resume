@@ -1,0 +1,112 @@
+html{
+  flex-basis: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+  -webkit-box-align: stretch;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  align-items: stretch;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+}
+
+body {
+  background-color: #373239;
+  font-family: Georgia;
+  font-size: 18px;
+  /*background-image: url('Profile-Unmarked-Square.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 900px 900px;
+  background-attachment: scroll;*/
+  font-family: "Mooli", sans-serif;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.75);
+    padding-bottom: 10px;
+    position: sticky;
+    top: 5px;
+}
+
+nav li{
+  color: white;
+  display: inline-block;
+  padding-left: 100px;
+  padding-top: 25px;
+}
+
+img {
+  height: 900px;
+  border-radius: 200px;
+  position: absolute;
+  right: 0px;
+}
+
+main {
+  text-align: justify;
+  color: white;
+  display: inline-block;
+  max-width: 750px;
+  min-width: 250px;
+  min-height: 2500px;
+  padding-left: 15px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  color: #68CD38;
+  font-size: 55px;
+  padding: 10px;
+}
+
+h2.section-head {
+  font-weight: bold;
+  font-style: normal;
+  font: serif;
+  color: #68CD38;
+  text-decoration: underline;
+}
+
+p.contact{
+  text-align: center;
+  color: white;
+}
+
+p.contact strong{
+  color: #38B3CD;
+  text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,0.75);
+    padding-bottom: 25px;
+}
+
+.contact {
+  font-size: 28px;
+}
+
+#title {
+  background-color: rgba(18, 23, 42, 0.5);
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 10px;
+}
+
+#bottom {
+  padding-bottom: 150px;
+}
+
+.section-head {
+  background-color: #304054;
+  border-radius: 5px;
+  padding: 5px;
+}
